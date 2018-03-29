@@ -3,14 +3,14 @@
 public class Waypoints : MonoBehaviour
 {
 
-    public static Transform[] points;
+    public static Point[] points;
 
     void Awake()
     {
-        points = new Transform[transform.childCount];
+        points = new Point[transform.childCount];
         for (int i = 0; i < points.Length; i++)
         {
-            points[i] = transform.GetChild(i);
+            points[i] = transform.GetChild(i).GetComponent<Point>();
         }
     }
 }

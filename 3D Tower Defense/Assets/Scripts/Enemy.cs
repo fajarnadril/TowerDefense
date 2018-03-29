@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour {
 
     void Start()
     {
-        target = Waypoints.points[0];
+        target = Waypoints.points[0].transform;
     }
 
     void Update()
@@ -30,7 +30,8 @@ public class Enemy : MonoBehaviour {
             Destroy(gameObject);
         }
         wavepointIndex++;
-        target = Waypoints.points[wavepointIndex];
+        transform.eulerAngles = Waypoints.points[wavepointIndex].direction;
+        target = Waypoints.points[wavepointIndex].transform;
     }
 
 }
