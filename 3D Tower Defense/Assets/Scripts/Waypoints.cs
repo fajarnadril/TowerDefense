@@ -2,7 +2,7 @@
 
 public class Waypoints : MonoBehaviour
 {
-
+    [SerializeField]
     public static Point[] points;
 
     void Awake()
