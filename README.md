@@ -13,7 +13,7 @@ scripts:
 The following controls are bound in-game, for gameplay and testing.
 | Key Binding       | Function          |
 | ----------------- | ----------------- |
-| W,A,S,D           | Standard movement |
+| W,A,S,D           | Camera Controls |
 
 ## Notes
 this game is developed in **Unity Editor 2021.1.13f1**
