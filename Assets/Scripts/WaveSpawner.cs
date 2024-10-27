@@ -11,8 +11,11 @@ public class WaveSpawner : MonoBehaviour {
     private float countdown = 2f;
 
     public Text waveCountdown;
+    public Text HowManyMonsterLeft;
+    public Text WaveText;
 
     private int waveNumber = 0;
+    public int MonsterCount = 0;
 
     void Update()
     {
@@ -32,8 +35,11 @@ public class WaveSpawner : MonoBehaviour {
         {
             SpawnEnemy();
             yield return new WaitForSeconds(0.5f);
+            MonsterCount++;
+            HowManyMonsterLeft.text = Mathf.Floor(MonsterCount).ToString();
         }
-         waveNumber++;
+        waveNumber++;
+        WaveText.text = Mathf.Floor(waveNumber/2).ToString();
     }
 
     void SpawnEnemy()
