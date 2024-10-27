@@ -12,7 +12,7 @@ public class Economy : MonoBehaviour
 
     void Start()
     {
-        MoneyDisplay.text = " " + Money.ToString();  // Initialize display with starting money
+        MoneyDisplay.text = " " + Money.ToString();
     }
 
     void Update(){
@@ -21,7 +21,7 @@ public class Economy : MonoBehaviour
 
     void UpdateMoneyDisplay()
     {
-        MoneyDisplay.text = " " + Money.ToString(); // Convert money to string for display
+        MoneyDisplay.text = " " + Money.ToString();
     }
 
     public void SetTowerPrice(int Price){

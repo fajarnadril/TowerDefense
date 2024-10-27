@@ -3,7 +3,7 @@ using UnityEngine;
 public class TowerTargetting : MonoBehaviour
 {
     public float range = 10f;
-    public Transform target; // Set as public to allow access from TowerBehaviour
+    public Transform target;
     public TowerBehaviour TB;
 
     void Update()
@@ -12,12 +12,10 @@ public class TowerTargetting : MonoBehaviour
 
         if (target != null)
         {
-            // Rotate tower to face the target
             Vector3 dir = (target.position - transform.position).normalized;
             dir.y = 0;
             transform.rotation = Quaternion.LookRotation(dir, Vector3.up);
 
-            // Start attacking if there is a target
             TB.StartAttacking();
         }
         else
