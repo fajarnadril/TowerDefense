@@ -31,6 +31,12 @@ scripts:
 This project also uses these package:
 - Universal RP
 
+Post Processing used:
+- Bloom
+- Vignette
+- Colour Adjustment 
+- Gamma
+
 the game has:
 - Economy
 - Infinite Waves 
