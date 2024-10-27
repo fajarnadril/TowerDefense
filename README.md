@@ -11,7 +11,7 @@ Go-Block is a 3D Tower defense game that has Infinite waves of enemies and 2 tow
 
 ## Scripts and Features
 scripts:
-|  Script       | Description                                                  | Development Time ||
+|  Script       | Description                                                  | Development Time |
 | ------------------- | ------------------------------------------------------------ | -------------- |
 | `CameraMover.cs` | Handles the Camera Movement by using standards movement mechanic (W,A,S,D) | ≈ 1 hours | 
 | `Economy.cs` | Handles the Economy of the Game, Buying towers and killing enemies | ≈ 2 hours | 
