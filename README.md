@@ -1,20 +1,17 @@
 ## About
-Tower Defense: Go-Block A Project to end all project
-Go-Block is a 3D Tower defense game that has 2 unique maps and have Infinite waves of enemies and 2 towers that has different value and strength opening up different strategies by using `TowerTargetting.cs` and `TowerBehaviour.cs`. Killing enemies gives money which can be used to buy more Towers. Polished version with post processing for showcase and very scaleable with more Towers, Enemies and Maps
+Tower Defense: Go-Block A Project to end all project<br>
+<br>
+Go-Block is a 3D Tower defense game that has 2 unique maps and have Infinite waves of enemies and 2 towers that has different value and strength opening up different strategies by using `TowerTargetting.cs` and `TowerBehaviour.cs`. Killing enemies gives money which can be used to buy more Towers. Polished version with post processing for showcase and very scaleable with more Towers, Enemies and Maps.
+<br> <br>
 
 <tbody>
     <tr>
       <td><img src="https://github.com/fajarnadril/TowerDefense/blob/AlexVersion/Tower-Def.gif"/></td>
     </tr>
     
-<br>
-
 ## Roles
-Artist: Fajar 
-
+Artist: Fajar <br>
 Programmer: Alexander NL
-
-<br>
 
 ## Scripts and Features
 scripts:
