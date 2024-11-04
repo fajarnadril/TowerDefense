@@ -5,8 +5,8 @@ Go-Block is a 3D Tower defense game that has 2 unique maps and have Infinite wav
 <br>
 
 <p float="left">
-  <img src="https://github.com/fajarnadril/TowerDefense/blob/AlexVersion/Tower-Def.gif" width="480"/>
-  <img src="https://github.com/fajarnadril/TowerDefense/blob/master/Tower-Def2.gif" width="480"/> 
+  <img src="https://github.com/fajarnadril/TowerDefense/blob/AlexVersion/Tower-Def.gif" width="400"/>
+  <img src="https://github.com/fajarnadril/TowerDefense/blob/master/Tower-Def2.gif" width="400"/> 
 </p>
 
 ## Roles
