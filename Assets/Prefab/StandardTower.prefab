@@ -379,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d80e1ea1052f34789134f286647173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 7
+  range: 10
   target: {fileID: 0}
   TB: {fileID: -3465551362009450226}
 --- !u!114 &-3465551362009450226
@@ -397,3 +397,4 @@ MonoBehaviour:
   towerTargetting: {fileID: 9065764258418420069}
   Damage: 5
   Firerate: 0.75
+  Price: 250
