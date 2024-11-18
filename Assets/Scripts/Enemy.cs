@@ -9,9 +9,14 @@ public class Enemy : MonoBehaviour {
     private Transform target;
     private int wavepointIndex = 0;
 
+    public GameObject FindCamera;
+    public Economy EndScreen;
+
     void Start()
     {
         target = Waypoints.points[0];
+        FindCamera = GameObject.Find("MoveCamera");
+        EndScreen = FindCamera.GetComponent<Economy>();
     }
 
     void Update()
@@ -36,6 +41,7 @@ public class Enemy : MonoBehaviour {
         if (wavepointIndex >= Waypoints.points.Length - 1)
         {
             Destroy(gameObject);
+            EndScreen.EnemyPassed();
         }
         wavepointIndex++;
         target = Waypoints.points[wavepointIndex];

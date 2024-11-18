@@ -9,6 +9,10 @@ public class Economy : MonoBehaviour
     public int NewPrice;
     
     public PlaceTower PT;
+    public GameObject LoseScene;
+
+    public Text HowManyLiveLeft;
+    public int Live;
 
     void Start()
     {
@@ -30,6 +34,15 @@ public class Economy : MonoBehaviour
         UpdateMoneyDisplay();
         if(Money < 249){
             PT.CannotBuy = true;
+        }
+    }
+
+    public void EnemyPassed(){
+        Live = Live - 1;
+        HowManyLiveLeft.text = " " + Live.ToString();
+        if(Live == 0){
+            LoseScene.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }

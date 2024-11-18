@@ -12129,6 +12129,9 @@ MonoBehaviour:
   Price: 0
   NewPrice: 0
   PT: {fileID: 725894977}
+  LoseScene: {fileID: 67939550}
+  HowManyLiveLeft: {fileID: 480476287}
+  Live: 1
 --- !u!1 &727338384
 GameObject:
   m_ObjectHideFlags: 0
